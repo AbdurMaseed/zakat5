@@ -1,0 +1,72 @@
+body{
+     background: -moz-linear-gradient(rgb(60, 9, 247) rgb(100, 11, 202)), url(background3.jpg);
+     width: 95%;
+     background-size: cover;
+     background-position: center;
+     background-image: url(background3.jpg);
+    height: auto; 
+
+}
+.hero{
+      width: 400px;
+      margin: 100px auto 0px auto;
+    
+
+}
+.fod{
+     background-color: rgba(68, 68, 40, 0.205);
+     width: 380px;
+     height: 720px;
+     font-size: 20px;
+     font-style: italic;
+     border-radius: 10px;
+     border: 1px rgb(235, 131, 57);
+     box-shadow: 15px 15px 15px rgba(253, 18, 18, 0.3);
+     position: relative;
+     margin: 100px auto;
+     color: rgba(250, 10, 10, 0.925);
+     padding: 7px;
+     text-align: center;
+     
+}
+input{
+      padding-top: 5px;
+      width: 250px;
+      font-size: 30px;
+      margin: auto;
+      text-align: center;
+      background-color: rgba(165, 42, 42, 0.158);
+      border-radius: 10px;
+      font-style: oblique;
+}
+button{
+      padding-top: 7px;
+      width: 200px;
+      font-size: 30px;
+      margin: 30px 90px;
+      border-radius: 20px;
+      border-width: 4px;
+      background-color: rgba(136, 90, 90, 0.158);
+      border-color: brown;
+      font-style: italic;
+      color: rgb(156, 10, 34);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

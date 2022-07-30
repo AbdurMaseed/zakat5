@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link rel="stylesheet" href="zak.css">
+</head>
+<body>
+
+    <div class="hero">
+      <div class="fod">
+   
+        <hi>Check Your Zakat</hi>
+        <h2>Total Cash</h2>
+        <input type="number" id="totalAmount" placeholder="Enter Net Cash">
+    
+        <h2>Total Gold</h2>
+        <input type="number" id="totalGold" placeholder="Enter Gold Tola">
+
+        <h2>Total Silver</h2>
+        <input type="number" id="totalSilver" placeholder="Enter Silver Tola">
+    
+        <h2>Calculate</h2>
+        <button onclick="
+        let totalNetCash = document.getElementById('totalAmount').value;
+        let totalNetCashD = totalNetCash /40;
+        
+        let totalGold = document.getElementById('totalGold').value;
+        let totalGoldCash = totalGold*120000 /40;
+        
+        let totalSilver = document.getElementById('totalSilver').value;
+        let totalSilverCash = totalSilver*1500 /40;
+        let totalZakat = totalNetCashD + totalGoldCash + totalSilverCash;
+        document.getElementById('heading').innerText =totalZakat ;">
+        
+             Click Here</button>
+         <h1 id="heading">0</h1>    
+         <h2>Make by Abdur</h2>
+    </div>    
+
+</div>
+
+
+</body>
+
+</html>
+
+
+
